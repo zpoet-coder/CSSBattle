@@ -1,0 +1,33 @@
+.body {
+  background-color: #E3516E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+}
+
+.pie-1 {
+  background: #51B5A9;
+  border-top-left-radius: 100%
+}
+
+.pie-2 {
+  background: #FADE8B;
+  border-top-right-radius: 100%
+}
+
+.pie-3 {
+  background: #F7F3D7;
+  border-bottom-left-radius: 100%
+}

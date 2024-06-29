@@ -1,0 +1,22 @@
+.body {
+  background-color: #62306D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: #F7EC7D;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.noReverse {
+  transform: translateY(-50px)
+}
+
+.reverse {
+  transform: translateY(50px) rotate(180deg);
+}

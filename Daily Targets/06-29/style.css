@@ -1,0 +1,34 @@
+.body {
+  background-color: #F48B26;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block {
+  width: 60px;
+  height: 50px;
+  background-color: #FEFF58;
+}
+
+.mid {
+  width: 400px;
+  height: 20px;
+  background-color: #FEFF58;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-container :first-child,
+.bottom-container :last-child {
+  width: 30px;
+}

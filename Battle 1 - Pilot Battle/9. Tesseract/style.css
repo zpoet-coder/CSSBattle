@@ -1,0 +1,36 @@
+.body {
+  background-color: #222730;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-blue {
+  background-color: #4CAAB3;
+}
+
+.gray {
+  background-color: #393E46;
+}
+
+.aside {
+  width: 400px;
+  height: 150px;
+}
+
+.rotated {
+  position: absolute;
+  transform: rotate(45deg)
+}
+
+.mid-block {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 0 50px #222730;
+}
+
+.mid-cir {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

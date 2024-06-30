@@ -1,0 +1,32 @@
+.body {
+  background-color: #6592CF;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.bottom {
+  width: 20px;
+  height: 60px;
+  background: #060F55;
+}
+
+.top {
+  width: 140px;
+  height: 200px;
+  border-radius: 0 0 70px 70px;
+  transform: translate(0, 10px);
+  background: linear-gradient(#6592CF 50%, #060F55 50%);
+}
+
+.top::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 110px;
+  background-color: #060F55;
+  border-radius: 10px;
+  box-shadow: 20px 0 #6592CF, 40px 0 #060F55,
+    60px 0 #6592CF, 80px 0 #060F55,
+    100px 0 #6592CF, 120px 0 #060F55;
+}

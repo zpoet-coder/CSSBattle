@@ -1,0 +1,55 @@
+.body {
+  background-color: #F5D6B4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 60px;
+  position: relative;
+}
+
+.mid {
+  height: 30px;
+  background-color: #F5D6B4;
+  border: 20px solid #D86F45;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom: 0px;
+  bottom: 25px;
+}
+
+.aside {
+  height: 30px;
+  background-color: #F5D6B4;
+  border: 20px solid #D86F45;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top: 0px;
+  top: 25px;
+}
+
+.left {
+  left: 20px;
+}
+
+.right {
+  left: -20px;
+}
+
+.dot {
+  width: 20px;
+  height: 10px;
+  background-color: #D86F45;
+  border-radius: 10px 10px 0 0;
+  top: -5px
+}
+
+.left-dot {
+  left: 40px
+}
+
+.right-dot {
+  left: -40px
+}

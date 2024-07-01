@@ -1,0 +1,45 @@
+.body {
+  background: #09042A;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+div {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.top,
+.bottom {
+  grid-column-start: 2;
+  box-shadow: 0 0 0 10px #09042A;
+  background: #F5BB9C;
+}
+
+.mid-left,
+.mid,
+.mid-right {
+  grid-row-start: 2;
+}
+
+.top {
+  translate: 0 7px;
+}
+
+.bottom {
+  translate: 0 -7px;
+}
+
+.mid-left,
+.mid-right {
+  box-shadow: 0 0 0 10px #E78481;
+  background: #09042A;
+}
+
+.mid {
+  background: #E78481;
+  scale: 1.2;
+  z-index: -1;
+}

@@ -1,0 +1,41 @@
+.body {
+  background-color: #62306D;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.yellow {
+  background-color: #F7EC7D;
+}
+
+.orange {
+  background-color: #E38F66;
+}
+
+.red {
+  background-color: #AA445F;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.big-block {
+  height: 200px;
+}
+
+.cir {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transform: translate(0, -50%);
+  box-shadow: 0 0 0 20px #AA445F;
+}
+
+.red.cir {
+  box-shadow: 0 0 0 20px #E38F66;
+}

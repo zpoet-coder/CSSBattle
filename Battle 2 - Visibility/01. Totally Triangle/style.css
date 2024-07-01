@@ -1,0 +1,9 @@
+.body {
+  background: #0B2429;
+}
+
+div {
+  width: 140px;
+  height: 140px;
+  background: linear-gradient(to right bottom, #F3AC3C 50%, #0B2429 50%);
+}

@@ -1,0 +1,32 @@
+.body {
+  background: linear-gradient(to right, #FFFFCD 50%, #EDAF38 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 240px;
+  height: 100px;
+  background: linear-gradient(to right, #EDAF38 50%, #FFFFCD 50%);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cir {
+  width: 60px;
+  height: 60px;
+  background: red;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.left {
+  background: #FFFFCD;
+}
+
+.right {
+  background: #EDAF38;
+}
